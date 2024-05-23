@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <!--specifies the character encoding of the html document-->
+        <meta charset="UTF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!--specifies the description of the html web page-->
+        <meta name="description" content="News Blog web page">
+
+        <!--specifies the keywords of the html web page for search Engines-->
+        <meta name="keywords" content="">
+
+        <!--specifies the viewport settings for the mobile devices-->
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+        <!--Title Of the Web Page-->
+        <title> NewsBlog</title>
+
+        <!--Icon of the web page-->
+        <link rel="icon" href="/HomeTask1-NewsBolg/images/news-report.png">
+
+        <!--External CSS stylesheet-->
+        <link rel="stylesheet" href="homepage.css">
+
+        <!--cdn links of the fontawesome for the icons-->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+    
+    <body>
+
+        <!-- Header semantic Element Tag-->
+
+        <header>
+
+            <div class="nav-logo">
+                <div class="logo"> <img class="logo-img" src="/images/newslogo.png" alt="Image not Found"   height="170px" width="170px" > </div> 
+            </div>
+
+            <div class="content-title">
+                <h1>NEWS BLOG</h1>
+                <h3><marquee direction="left" duration="10s" >WORLD WIDE NEWS</marquee></h3>
+            </div>
+
+        </header>
+
+        <div class="hr1"></div>
+
+        <!--nav semantic Element for the navigation bar-->
+
+        <nav class="main-nav">
+            <div class="nav1">
+                <label for="news category" class="custom-label">SELECT CATEGORY</label>
+                <div class="custom-select">
+                    <select id="news-category" onclick="window.location.hash = this.value;">
+                        <option value="#All">All</option>
+                        <option value="#Entertainment">ENTERTAINMENT</option>
+                        <option value="#Lifestyle">Lifestyle</option>
+                        <option value="#Politics">Politics</option>
+                        <option value="#sports">Sports</option>
+                        <option value="#Technology">Technology</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="nav2">
+                <h1>ALL NEWS</h1>
+            </div>
+
+            <div class="nav3">
+                <label for="email">SUBSCRIBE</label><br>
+                <input type="email" id="email" name="email" size="17" placeholder="email address" required>
+                <input type="submit" value="Subscribe">
+            </div>
+        </nav>
+
+        <hr class="custom-hr">
+        
+        <section class="section1" id="Entertainment">
+            <article>
+                <img class="custom-img" src="/images/entertain.jpg" alt="Image Not Found" height="250px" width="350px">
+            </article>
+            <aside>
+                <h2 class="aside-h2" >ENTERTAINMENT</h2>
+                <h3 class="aside-h3">posted on Tuesday 14 May, 2024, Epaper, The Indian Express</h3>
+                <p>Kalki 2898 AD is an upcoming 2024 Indian epic science fiction action film, co-written and 
+                   directed by Nag Ashwin. Produced by C. Aswani Dutt of Vyjayanthi Movies, it was shot 
+                   primarily in Telugu with some scenes reshot in Hindi.Inspired by Hindu mythology, the 
+                   film is set in a post-apocalyptic world in 2898 AD. It stars Prabhas in the titlular role 
+                   alongside Amitabh Bachchan, Kamal Haasan, Deepika Padukone and Disha Patani.</p>
+                <div class="ctn-rdg-btn">
+                    <button ><a href="https://en.wikipedia.org/wiki/Kalki_2898_AD" target="_self" title="Go to wikipedia site for content on Kalki_2898_AD">Continue Reading</a></button>
+                </div>
+            </aside>
+        </section>
+
+        <hr class="custom-hr">
+
+        <section class="section2" id="Lifestyle">
+            <article><img class="custom-img" src="images/lifestyle.jpg" alt="Image Not Found" height="250px" width="350px"></article>
+            <aside>
+                <h2 class="aside-h2" >DIVERSITY OF INDIA</h2>
+                <h3 class="aside-h3">posted on 26 April, 2003, Epaper, The Indian Express</h3>
+                <p>Indian culture is the heritage of social norms and technologies that originated in or are 
+                    associated with the ethno-linguistically diverse India, pertaining to the Indian 
+                    subcontinent until 1947 and the Republic of India post-1947. The term also applies beyond 
+                    India to countries and cultures whose histories are strongly connected to India by 
+                    immigration, colonisation, or influence, particularly in South Asia and Southeast Asia. 
+                    India's languages, religions, dance, music, architecture, food, and customs differ from 
+                    place to place within the country.</p>
+                <div class="ctn-rdg-btn"><button ><a href="https://en.wikipedia.org/wiki/Culture_of_India" target="_self" title="Go to wikipedia site for content on Culture_of_India">Continue Reading</a></button></div>
+            </aside>
+        </section>
+
+        <hr class="custom-hr">
+
+        <section class="section3" id="Politics">
+            <article><img class="custom-img" src="/images/politics.jpg" alt="Image Not Found" height="250px" width="350px"></article>
+            <aside>
+                <h2 class="aside-h2" >2024 INDIAN ELECTIONS</h2>
+                <h3 class="aside-h3">posted on 2 March, 2024, Epaper, The Indian Express</h3>
+                <p>General elections are being held in India from 19 April to 1 June 2024 in seven phases, 
+                    to elect 543 members of the Lok Sabha. The incumbent prime minister Narendra Modi, who completed a second term, is running for a 
+                    third consecutive term. Approximately 970 million people out of a population of 1.4 billion 
+                    people are eligible to vote, equivalent to 70% of the total population. The legislative assembly 
+                    elections in the states of Andhra Pradesh, Arunachal Pradesh, Odisha, and Sikkim are to be held 
+                    simultaneously with the general election, along with the by-elections for 25 constituencies in 12 
+                    legislative assemblies.
+                </p>
+                <div class="ctn-rdg-btn">
+                    <button ><a href="https://en.wikipedia.org/wiki/2024_Indian_general_election" target="_self" title="Go to wikipedia site for content on 2024 2024_Indian_general_elections">Continue Reading</a></button>
+                </div>
+            </aside>
+        </section>
+
+        <hr class="custom-hr">
+
+        <section class="section4" id="sports">
+            <article><img class="custom-img" src="/images/sports1.jpg" alt="Image Not Found" height="250px" width="350px"></article>
+            <aside>
+                <h2 class="aside-h2">ICC CRICKET WORLD CUP 2011</h2>
+                <h3 class="aside-h3">posted on Saturday 3 April, 2011, Epaper, The Indian Express</h3>
+                <p>The 2011 Cricket World Cup Final was the final match of the 2011 Men's Cricket World Cup,
+                    the 10th edition of ICC's championship of One Day International (ODI) cricket. The match was 
+                    played between India and Sri Lanka at the Wankhede Stadium, Mumbai, India on Saturday 2 April
+                    2011. India won the match by six wickets—its second World Cup win after the 1983 tournament—
+                    and became the third team to have won the title more than once, after Australia (1987, 1999, 
+                    2003, 2007) and the West Indies (1975 and 1979).
+                </p>
+                <div class="ctn-rdg-btn">
+                    <button><a href="https://en.wikipedia.org/wiki/2011_Cricket_World_Cup_final" target="_self" title="Go to wikipedia site for content on 2011_Cricket_World_Cup_final">Continue Reading</a></button>
+                </div>
+                
+                
+            </aside>
+        </section>
+
+        <hr class="custom-hr">
+
+        <section class="section5" id="Technology">
+            <article>
+                <img class="custom-img" src="/images/AI.jpg" alt="Image Not Found" height="250px" width="350px">
+            </article>
+            <aside>
+                <h2 class="aside-h2" >AI REVOLUTION</h2>
+                <h3 class="aside-h3">posted on 26 January, 2024, Epaper, INDIA TODAY</h3>
+                <p>Artificial intelligence (AI), in its broadest sense, is intelligence exhibited by machines, 
+                    particularly computer systems. Their chances of achieving defined goals. Such machines may be called AIs. AI technology is widely used throughout industry, government, 
+                    and science. Some high-profile applications include advanced web search engines (e.g., Google Search);
+                    recommendation systems (used by YouTube, Amazon, and Netflix); interacting via human speech.
+                </p>
+                <div class="ctn-rdg-btn">
+                    <button><a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_self" title="Go to wikipedia site for content on Artificial Artificial_intelligence">Continue Reading</a></button>
+                </div>
+                
+            </aside>
+        </section>
+        <hr class="custom-hr" >
+
+        <footer>
+            <h1 class="footer-h1">Follow us on</h1>
+            <ul class="custom-ul">
+                <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook" style="color: rgb(38, 5, 251);"></i></a></li>
+                <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter" style="color: #ec0452;"></i></a></li>
+                <li><a href="https://www.instagram.com/accounts/emailsignup/"><i class="fa-brands fa-instagram" style="color: #640a28;"></i></a></li>
+                <li><a href="https://www.linkedin.com/login" target="_parent"><i class="fa-brands fa-linkedin" style="color: rgb(247, 106, 5);"></i></a></li>
+            </ul>
+            <h3> &copy; 2024 NewsBlog. All rights reserved to EPAM India Pvt.Ltd..</h3>
+            <h3>Designed By Jagannadha Reddy</h3>
+
+        </footer>
+    </body>
+</html>
