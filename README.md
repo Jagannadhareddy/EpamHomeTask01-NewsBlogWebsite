@@ -1,2 +1,2 @@
 # EpamHomeTask01-NewsBlogWebsite
-This is my first task in Epam Organization
+ https://jagannadhareddy.github.io/EpamHomeTask01-NewsBlogWebsite/
